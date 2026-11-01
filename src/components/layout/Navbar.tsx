@@ -75,7 +75,7 @@ export default function Navbar() {
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
             <img src="/gemini.svg" alt="Logo" />
           </div>
-          <span className="text-xl font-bold tracking-tight pr-3.5 text-foreground group-hover:text-primary transition-colors">
+          <span className="text-xl font-bold tracking-tight pr-3.5d text-foreground group-hover:text-primary transition-colors">
             {t("app_name")}
           </span>
         </Link>
